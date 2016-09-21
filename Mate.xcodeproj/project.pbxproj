@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F3586B11D9220C8003D4F57 /* DFP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3586B01D9220C8003D4F57 /* DFP.framework */; };
 		2FA1691A1D8CF284009BF609 /* Mate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FA169181D8CF284009BF609 /* Mate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2FA169461D8CF360009BF609 /* MateDuties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA169451D8CF360009BF609 /* MateDuties.swift */; };
 		2FA169581D8CF7C4009BF609 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FA169571D8CF7C4009BF609 /* View.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F3586B01D9220C8003D4F57 /* DFP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DFP.framework; path = "../../../../Library/Developer/Xcode/DerivedData/StarTrek-ecddfjxnxpliymauwaolcfwbhybv/Build/Products/Debug-iphonesimulator/DFP.framework"; sourceTree = "<group>"; };
 		2FA169151D8CF284009BF609 /* Mate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FA169181D8CF284009BF609 /* Mate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mate.h; sourceTree = "<group>"; };
 		2FA169191D8CF284009BF609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -25,17 +27,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F3586B11D9220C8003D4F57 /* DFP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F3586AF1D9220C8003D4F57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F3586B01D9220C8003D4F57 /* DFP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2FA1690B1D8CF284009BF609 = {
 			isa = PBXGroup;
 			children = (
 				2FA169171D8CF284009BF609 /* Mate */,
 				2FA169161D8CF284009BF609 /* Products */,
+				2F3586AF1D9220C8003D4F57 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
